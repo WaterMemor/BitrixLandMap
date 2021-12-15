@@ -1,0 +1,56 @@
+.map{
+  position:relative;
+}
+.uchastki_detail img{
+  width: 657px;
+}
+.uchastki_detail{
+  opacity: 1 !important; display: none;
+}
+#svg{
+  shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd
+}
+.modal-uch{
+  background-color:rgb(3 41 84 / 76%)!important;
+}
+.modal-close{
+  z-index:99!important;
+}
+.name, .num_cont, .img_uch{
+  position:absolute;
+}
+.map{
+  margin-top: 150px;
+}
+@media(max-width:500px){
+  .map{
+    margin-top: 50px!important;
+  }
+}
+.num, polygon, .img_uch {
+  cursor: pointer;
+}
+.name{
+  color: #F7F14D;
+  font-size: 16px;
+  font-weight:bold;
+}
+.name span{
+  font-size: 12px;
+  font-weight: normal!important;
+}
+@media(max-width:768px){
+  .name span{
+    font-size:10px!important
+  }
+}
+@media(max-width:425px){
+  .name span{
+    font-size:5px!important
+  }
+}
+.num{
+  color: black;
+  font-size: 8px;
+  font-weight:bold;
+}
